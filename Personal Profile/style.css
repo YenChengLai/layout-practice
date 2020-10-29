@@ -66,9 +66,10 @@ ul {
 }
 
 .skills {
-    background: #415165 0% 0% no-repeat padding-box;
+    background: #415165 0% 0% repeat padding-box;
     opacity: 1;
     align-content: center;
+    margin-bottom: 72px;
 }
 
 .skillDiv {
@@ -99,4 +100,19 @@ ul {
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+.skillList ul li {
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 24px;
+}
+
+.skillList {
+    border-left: 1px solid #96A9C4;
+    opacity: 1;
+    margin-left: 492px;
 }
