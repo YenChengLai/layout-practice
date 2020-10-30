@@ -43,7 +43,9 @@
 
 .title {
     margin-top: 48px;
-    margin-bottom: 0px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000000;
+    opacity: 1;
 }
 
 .hr-24 {
@@ -62,7 +64,10 @@ ul li {
 
 ul {
     padding-left: 0;
-    margin-top: 0px;
+}
+
+.profile ul {
+    margin-top: 16px;
 }
 
 .skills {
@@ -70,6 +75,7 @@ ul {
     opacity: 1;
     align-content: center;
     margin-bottom: 72px;
+    margin-top: 72px;
 }
 
 .skillDiv {
@@ -115,4 +121,12 @@ ul {
     border-left: 1px solid #96A9C4;
     opacity: 1;
     margin-left: 492px;
+}
+
+.skillList ul {
+    margin-top: 40px;
+}
+
+.experienceList {
+    margin-left: 24px;
 }
