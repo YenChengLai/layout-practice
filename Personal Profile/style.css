@@ -212,3 +212,27 @@ ul {
 .info div {
     margin-top: 16px;
 }
+
+.facebook {
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.instagram {
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.line {
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.icon {
+    margin-top: 24px;
+    padding-bottom: 48px;
+}
+
+.icon img {
+    margin: 0px 12px;
+}
