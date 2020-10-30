@@ -2,6 +2,7 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 72px;
 }
 
 .container h1 {
@@ -22,6 +23,9 @@
     height: 324px;
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+.container img {
     display: block;
 }
 
@@ -138,13 +142,12 @@ ul {
 }
 
 .hexschool {
-    display: block;
     margin-bottom: 8px;
 }
 
 .hex {
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
 }
 
 .expSpan {
@@ -153,4 +156,59 @@ ul {
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+}
+
+.experienceList ul li h4 {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.simtree {
+    margin-bottom: 8px !important;
+}
+
+.footer {
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    width: 1200px;
+    border-bottom: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.contact h2 {
+    text-align: center;
+    font: normal normal medium 32px/45px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contactEng {
+    font: normal normal medium 24px/29px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.info {
+    text-align: center;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 16px;
+}
+
+.info div {
+    margin-top: 16px;
 }
