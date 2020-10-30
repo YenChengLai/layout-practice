@@ -17,7 +17,7 @@
     margin-bottom: 0px;
 }
 
-.container img {
+.profileImg {
     width: 324px;
     height: 324px;
     background: transparent 0% 0% no-repeat padding-box;
@@ -129,4 +129,28 @@ ul {
 
 .experienceList {
     margin-left: 24px;
+    border-left: 1px solid #96A9C4;
+    opacity: 1;
+}
+
+.experienceList ul {
+    margin-left: 24px;
+}
+
+.hexschool {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.hex {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.expSpan {
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
 }
