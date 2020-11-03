@@ -81,18 +81,17 @@
     opacity: 1;
 }
 
-.cate-all {
-    background: #eaf0ed 0% 0% no-repeat padding-box;
-    border: 1px solid #eaf0ed;
-    opacity: 1;
-}
-
 .cate-center {
     text-align: center;
 }
 
 .cate-item {
     border: 1px solid #eaf0ed;
+    opacity: 1;
+}
+
+.cate-item:hover {
+    background: #EAF0ED 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
